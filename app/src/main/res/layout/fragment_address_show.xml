@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#141931">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rec_show_address_left"
+       android:layout_width="@dimen/dp_88"
+       android:background="#1c2243"
+       android:layout_height="match_parent"
+       android:layout_marginTop="@dimen/dp_1"></android.support.v7.widget.RecyclerView>
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rec_show_address_right"
+       android:layout_width="@dimen/dp_158"
+       android:background="#1c2243"
+       android:layout_height="match_parent"
+       android:visibility="gone"></android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

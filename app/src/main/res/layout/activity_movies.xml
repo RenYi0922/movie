@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141931"
+    tools:context=".activity.MoviesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/liner_up">
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rec_movies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignBottom="@id/liner_up">
+                    <android.support.design.widget.TabLayout
+                        android:id="@+id/tab_layout_movies"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_44"
+                        android:background="#1c2243"></android.support.design.widget.TabLayout>
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager_movies"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_600"></android.support.v4.view.ViewPager>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_write"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:background="#e8be18"
+                android:text="写影评"
+                android:textColor="#fff"
+                android:textSize="@dimen/sp_14" />
+
+            <Button
+                android:id="@+id/btn_buy_movies"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:background="#e8185e"
+                android:text="选座购票"
+                android:textColor="#fff"
+                android:textSize="@dimen/sp_14" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

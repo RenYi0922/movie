@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dp_24">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sView_rec_after"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_10"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_130"/>
+        <TextView
+            android:id="@+id/tv_score_rec_after"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_17"
+            android:layout_marginTop="@dimen/dp_137"
+            android:layout_marginLeft="@dimen/dp_35"
+            android:layout_marginRight="@dimen/dp_35"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_name_rec_after"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_6"
+        android:textColor="#fff"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+    <Button
+        android:id="@+id/btn_buy_rec_after"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_11"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@drawable/rec_buy"
+        android:text="购票"
+        android:textColor="#fff"/>
+    
+</LinearLayout>

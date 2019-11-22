@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/dp_24">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_98"
+        android:layout_marginTop="@dimen/dp_30"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:orientation="vertical"
+        android:background="#1c2243">
+        <TextView
+            android:id="@+id/tv_name_rec_now"
+            android:layout_width="@dimen/dp_84"
+            android:layout_height="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_118"
+            android:layout_marginTop="@dimen/dp_14"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_14"/>
+        <TextView
+            android:id="@+id/tv_get_rec_now"
+            android:layout_marginTop="@dimen/dp_11"
+            android:layout_width="@dimen/dp_77"
+            android:layout_height="@dimen/dp_17"
+            android:layout_marginLeft="@dimen/dp_118"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_12"/>
+        <TextView
+            android:id="@+id/tv_want_rec_now"
+            android:layout_width="@dimen/dp_55"
+            android:layout_height="@dimen/dp_17"
+            android:layout_marginLeft="@dimen/dp_118"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginBottom="@dimen/dp_9"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_12"/>
+    </LinearLayout>
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sView_rec_now"
+        android:layout_width="@dimen/dp_88"
+        android:layout_height="@dimen/dp_108"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginLeft="@dimen/dp_34"/>
+
+    
+</RelativeLayout>

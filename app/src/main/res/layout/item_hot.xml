@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_38"
+        android:orientation="horizontal"
+        android:background="#1c2243">
+        <ImageView
+            android:background="@drawable/hot2"
+            android:layout_width="@dimen/dp_19"
+            android:layout_height="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_9"
+            android:layout_marginBottom="@dimen/dp_9"/>
+        <TextView
+            android:layout_width="@dimen/dp_56"
+            android:layout_height="@dimen/dp_20"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_9"
+            android:layout_marginBottom="@dimen/dp_9"
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:text="热门电影"/>
+        <TextView
+            android:layout_width="@dimen/dp_24"
+            android:layout_height="17dp"
+            android:layout_marginLeft="@dimen/dp_202"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#fff"
+            android:textSize="@dimen/sp_12"
+            android:text="更多" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rec_home_hot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_346"></android.support.v7.widget.RecyclerView>
+</LinearLayout>

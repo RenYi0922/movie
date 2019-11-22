@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#141931">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_153"
+        android:background="@drawable/invalid_name">
+        <TextView
+            android:layout_width="@dimen/dp_32"
+            android:layout_height="@dimen/dp_22"
+            android:layout_marginRight="@dimen/dp_164"
+            android:layout_marginLeft="@dimen/dp_164"
+            android:text="我的"
+            android:textColor="#fff"
+            android:layout_marginTop="@dimen/dp_41"
+            android:textSize="16dp"/>
+        <ImageView
+            android:background="@drawable/xinxi"
+            android:layout_width="@dimen/dp_22"
+            android:layout_height="@dimen/dp_17"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/dp_17"
+            android:layout_marginTop="@dimen/dp_41"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_90"
+        android:layout_marginTop="@dimen/dp_94"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:background="@drawable/line_fragment_mine"></LinearLayout>
+    <LinearLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_194"
+        android:background="@drawable/line2_fragment_mine"></LinearLayout>
+    <GridLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="@dimen/dp_235"
+        android:layout_marginRight="@dimen/dp_24"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginTop="@dimen/dp_254"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp_20"
+        android:paddingLeft="@dimen/dp_18"
+        android:background="@drawable/rectangle_26_copy_2">
+
+        <ImageView
+            android:background="@drawable/gz"
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_46" />
+        <LinearLayout
+            android:layout_width="@dimen/dp_48"
+            android:layout_height="@dimen/dp_46"
+            android:layout_marginLeft="@dimen/dp_60"
+            android:layout_marginRight="@dimen/dp_30"
+            android:orientation="vertical"
+            android:gravity="center">
+            <ImageView
+                android:background="@drawable/yy"
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_24" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#deffffff"
+                android:text="我的预约"
+                android:layout_marginTop="@dimen/dp_10"/>
+        </LinearLayout>
+        <ImageView
+            android:background="@drawable/jl"
+            android:layout_width="@dimen/dp_48"
+            android:layout_marginLeft="@dimen/dp_42"
+            android:layout_height="@dimen/dp_46" />
+        <ImageView
+            android:background="@drawable/kg"
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_46"
+            android:layout_marginTop="@dimen/dp_30"/>
+        <ImageView
+            android:background="@drawable/pl"
+            android:layout_width="@dimen/dp_48"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_60"
+            android:layout_height="@dimen/dp_46" />
+        <ImageView
+            android:background="@drawable/fk"
+            android:layout_width="@dimen/dp_48"
+            android:layout_marginTop="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_42"
+            android:layout_height="@dimen/dp_46" />
+        <ImageView
+            android:id="@+id/img_sz"
+            android:background="@drawable/shezhi"
+            android:layout_width="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_27"
+            android:layout_marginLeft="@dimen/dp_18"
+            android:layout_height="@dimen/dp_46" />
+    </GridLayout>
+    
+</RelativeLayout>

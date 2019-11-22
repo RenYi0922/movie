@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/dp_312"
+    android:layout_height="@dimen/dp_90"
+    android:layout_marginLeft="@dimen/dp_24"
+    android:layout_marginRight="@dimen/dp_24"
+    android:layout_marginTop="@dimen/dp_10"
+    android:background="@drawable/line2_fragment_mine">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sView_rec_show_rec_near"
+        android:layout_width="@dimen/dp_70"
+        android:layout_height="@dimen/dp_70"
+        android:layout_margin="@dimen/dp_10"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/sView_rec_show_rec_near"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_name_rec_show_near"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textSize="@dimen/sp_15"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/tv_address_show_near"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/sp_10"
+            android:layout_marginTop="@dimen/dp_10"
+            android:textColor="#fff"/>
+    </LinearLayout>
+
+</RelativeLayout>

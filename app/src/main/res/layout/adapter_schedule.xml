@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_121"
+    android:layout_marginTop="@dimen/sp_10"
+    android:background="@drawable/line2_fragment_mine">
+    
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sView_rec_schedule"
+        android:layout_width="@dimen/dp_84"
+        android:layout_height="@dimen/dp_101"
+        android:layout_marginTop="@dimen/sp_10"
+        android:layout_marginLeft="@dimen/sp_10"/>
+    <TextView
+        android:id="@+id/tv_name_rec_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_14"
+        android:layout_marginTop="@dimen/sp_10"
+        android:layout_toRightOf="@id/sView_rec_schedule"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/tv_director_rec_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_40"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_12"
+        android:layout_toRightOf="@id/sView_rec_schedule"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/tv_performer_rec_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_67"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_12"
+        android:layout_toRightOf="@id/sView_rec_schedule"
+        android:layout_marginLeft="@dimen/dp_20"/>
+
+    <TextView
+        android:id="@+id/tv_score_rec_schedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_94"
+        android:textColor="#fff"
+        android:textSize="@dimen/sp_12"
+        android:layout_toRightOf="@id/sView_rec_schedule"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/sp_10"/>
+    <Button
+        android:id="@+id/btn_buy_rec_schedule"
+        android:layout_width="@dimen/dp_45"
+        android:layout_height="@dimen/dp_20"
+        android:text="购票"
+        android:textColor="#fff"
+        android:layout_marginTop="@dimen/dp_91"
+        android:layout_marginLeft="@dimen/dp_257"
+        android:background="#e8185e"
+        android:layout_marginBottom="@dimen/sp_10"/>
+</RelativeLayout>
